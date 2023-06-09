@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.increase {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 18vh;
+}
+
+.para {
+  padding-left: 0.7rem;
+}
+
+button {
+  background-color: floralwhite;
+  border-radius: 5px;
+  padding: 1px 5px;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightblue;
+  }
+  footer {
+    margin-top: 30vh;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  body {
+    background-color: #9336b4;
+  }
+
+  button {
+    background-color: #dd58d6;
+    border: none;
+    font-weight: bold;
+  }
+  footer {
+    margin-top: 50vh;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 2500px) {
+  body {
+    background-color: #c2dedc;
+  }
+  footer {
+    margin-top: 50vh;
+  }
+}
